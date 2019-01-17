@@ -1,0 +1,41 @@
+body {
+    background-color: #ffffff;
+    color: #dddddd;
+    font: Times;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#Tanya1 {
+    float: left;
+    width: 33.3%;
+    color: #fff;
+    background: #30948D; 
+}
+ 
+#video1 {
+    float: left;
+    width: 33.3%;
+    color: #fff;
+    background: #30948D;
+  }
+#video2 {
+    float: left;
+    width: 33.3%;
+    color: #fff;
+    background: #30948D;
+  }
+
+#video3 {
+        float: left;
+        width: 33.3%;
+        color: #fff;
+        background: #30948D;
+}
+
+#video4 {
+            float: right;
+            width: 33.3%;
+            color: #fff;
+            background: #30948D;
+        }
