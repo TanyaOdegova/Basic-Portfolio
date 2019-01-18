@@ -1,11 +1,68 @@
+
 body {
+
     background-color: #ffffff;
     color: #dddddd;
     font: Times;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 960px;
+    
 }
+
+p{
+    color: #777777;
+}
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+  }
+  
+  #menu{
+    background-color: #ffffff;
+    width: 960px;
+    height: 45px;
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+  
+  }
+  
+  #headerbox {
+    background-color: #4aaaa5;
+    border-color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    height: 45px;
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+  }
+
+
+
+
 
 
 h1 {
@@ -14,56 +71,65 @@ h1 {
     border-color:#ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     width: 200px;
     padding: 10px;
     margin: 0px;
-
+    position: relative;
 }
+hr {
+    width: 100%;
+    height: 3px;
+    box-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#cccc;
+    border: 0 none;
+    margin-top: 20px;
+    margin-bottom:20px;
+    }
 
-
-h2 {
-    background-color: #ffffff;
+h2{
     color: #4aaaa5;
-    border: 5px solid gray;
-    margin: 20px;
-    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     font-size: 20px;
-    font-family: "Times";
-}
-
-p {
-    color: #777777;
-}
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;   
-}
-li {
-    float: right;
-}
-li a {
-    display: block;
-    color: #777777;
-    text-align: right;
-    padding: 14px;
-}
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #4aaaa5;
   }
 
-  footer {
-  padding: 20px;
-  border-top: 8px solid #4aaaa5;
-  clear: both;
-  background: #777777;
-  flex-shrink: 0;
-
-
+#box {
+	float: left;
+	height: 400px;
+	width: 700px;
+	margin: 20px;
+	padding: 10px;
+	border: solid;
+	border-radius: 10px;
+	background: #ffffff;
 }
 
+footer {
+    padding: 20px;
+    width: 960px;
+    border-top: 8px solid #4aaaa5;
+    clear: both;
+    background: #777777;
+    flex-shrink: 0;
+  
+  
+  }
 
-
-
+  footer a:link{
+    color: #4aaaa5;
+  }
+  a:visited{
+    color: #295d5a;
+  }
+  a:hover{
+    color: #4aaaa5;
+  }
+  a:focus{
+    color:#4aaaa5;
+  }
+  a:active{
+    color: #4aaaa5;
+  }
